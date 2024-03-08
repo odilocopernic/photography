@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center; 
+        }
+
+        header {
+            background-image: url('https://happycredit.in/cloudinary_opt/blog/opt-bd1xd.webp');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px; 
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px; 
+            background-color: #333; 
+            padding: 5px 0; 
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            padding: 10px;
+            transition: color 0.10s;
+            font-size: 30px; 
+        }
+
+        nav a:hover {
+            color: #ffd700; 
+        }
+
+        .main-content {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            padding: 0 20px; 
+        }
+
+        .left-column {
+            width: 45%;
+            padding: 20px;
+            background-color: #fff;
+            border: 2px solid #333; 
+            border-radius: 8px;
+        }
+
+        form {
+            margin: 0;
+            padding: 20px; 
+            text-align: left;
+        }
+
+        label {
+            display: block;
+            color: blue;
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 2px solid #333; 
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        button[type="submit"] {
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .right-column {
+            width: 45%;
+            padding: 20px; 
+            border: 2px solid #333;
+            border-radius: 8px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 450px;
+            border: 2px solid #333; 
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            text-decoration: none;
+            transition: color 0.3s;
+            color: #fff;
+            margin-right: 10px;
+        }
+
+        footer a:hover {
+            color: #ffd700;
+        }
+
+        .socialmedia {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            size: 200px;
+        }
+
+        .socialmedia a {
+            font-size: 30px;
+            margin: 0 28px;
+        }
+
+        .fa-facebook {
+            color: #3b5998;
+        }
+
+        .fa-instagram {
+            color: #e4405f;
+        }
+
+        .fa-envelope {
+            color: #fff; 
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Photography Website</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="award.html">Award</a>
+            <a href="galery.html">Gallery</a>
+            <a href="contact.html">Contact us</a>
+        </nav>
+    </header>
+
+    <div class="main-content">
+        <div class="left-column">
+            <section>
+                <form>
+                    <label for="name">Your name:</label>
+                    <input type="text" id="name" name="name">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject">
+                    <label for="message">Your message:</label>
+                    <textarea id="message" name="message" rows="6"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </div>
+        <div class="right-column">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.50104052401!2d30.090105874726042!3d-1.9528609980294385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca6f3a6d7d373%3A0xda6c2b3cabfec246!2sKigali%20Heights!5e0!3m2!1sen!2srw!4v1709417592600!5m2!1sen!2srw" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+   <footer>
+    <div class="socialmedia">
+        <a href="https://www.facebook.com/hirwa.odillo/" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/od1llo__thegreat/" class="fa fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/hirwa-odillo-5a3a8123b/" class="fa fa-linkedin"></a>
+    </div>
+    <p>&copy; 2024 Odilo Copernic . All rights reserved.</p>
+</footer>
+
+</body>
+</html>
